@@ -1,0 +1,19 @@
+[
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_assistant_and_speech_endpoints_authenticated",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_assistant_endpoint_validation_and_success",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_auth_register_login_duplicate_logout_me",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_document_analyze_endpoint",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_document_upload_pdf_extraction",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_document_upload_txt_and_metrics",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_document_upload_validation_errors",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_health_and_unauthenticated_protection",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_health_endpoint",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_learning_results_auto_save_manual_crud_and_ai_routes",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_normalize_page_text_preserves_structure",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_persistent_chats_messages_rename_search_delete_and_isolation",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_persistent_documents_upload_list_reopen_download_delete",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_simplify_endpoint_validation_and_success",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_speech_endpoint_and_chunking",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_summarize_endpoint_validation_and_success",
+  "Smart-Learning-Accessibility-Assistant/backend/tests/test_api.py::test_youtube_recommendations_auth_validation_persistence_and_isolation"
+]

@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --font-accessible: "Atkinson Hyperlegible", "Plus Jakarta Sans", sans-serif;
+    --font-dyslexia: "Lexend", "OpenDyslexic", "Atkinson Hyperlegible", sans-serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  a:focus-visible {
+    outline: 2px solid #4f46e5;
+    outline-offset: 2px;
+  }
+}
+
+.font-reading-sans {
+  font-family: var(--font-sans);
+}
+
+.font-reading-accessible {
+  font-family: var(--font-accessible);
+}
+
+.font-reading-dyslexia {
+  font-family: var(--font-dyslexia);
+  letter-spacing: 0.02em;
+  word-spacing: 0.08em;
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
